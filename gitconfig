@@ -1,0 +1,16 @@
+[user]
+	name = Beroris
+  email = legolizard157@gmail.com
+[core]
+  editor = nvim
+  autocrlf = input
+[color]
+  ui = auto
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential
+[init]
+	defaultBranch = main
