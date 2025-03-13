@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOTFILES_DIR=~/dotfiles
+DOTFILES_DIR=~/wsl-dotfiles
 
 ln -sf $DOTFILES_DIR/zshrc ~/.zshrc
 ln -sf $DOTFILES_DIR/gitconfig ~/.gitconfig
